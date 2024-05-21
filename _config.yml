@@ -3,7 +3,6 @@ title: Area - 37 Website
 email: your-email@domain.com
 color_scheme: scpf
 description: > # this means to ignore newlines until "baseurl:"
-Cool!
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
