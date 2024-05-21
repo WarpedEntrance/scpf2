@@ -1,12 +1,32 @@
 # Site settings
+remote_theme: pdmosses/just-the-docs@callouts
 title: Area - 37 Website
 email: your-email@domain.com
+
 color_scheme: scpf
 description: > # this means to ignore newlines until "baseurl:"
+
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+callouts:
+  important:
+    title: Important
+    color: red
+  caution:
+    title: Caution
+    color: yellow
+  hint:
+    title: Hint
+    color: green
+  information:
+    title: Information
+    color: blue
+    
 twitter_username: jekyllrb
 github_username:  WarpedEntrance
+
+footer_content: "Copyright &copy; 2017-2021 Administrator_Mr's SCP Foundation."
 
 # Build settings
 markdown: kramdown
